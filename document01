@@ -1,0 +1,16 @@
+インフラ説明書
+
+GitHub
+└── ChongWeiYuan/laravel-inventory（リポジトリ1つ）
+        ├── mainブランチ
+        └── developブランチ
+
+VPS（1台: nagao.xyz）
+├── /var/www/nagao-portfolio  ← mainブランチ対応
+│     └── DB: nagao_portfolio
+└── /var/www/nagao-dev        ← developブランチ対応
+      └── DB: nagao_dev
+
+ドメイン
+├── nagao.xyz        → /var/www/nagao-portfolio
+└── dev.nagao.xyz    → /var/www/nagao-dev
