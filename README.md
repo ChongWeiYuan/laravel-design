@@ -57,7 +57,8 @@
 | ブランチ | 環境 | URL |
 |----------|------|-----|
 | `main` | 本番環境 | https://nagao.xyz |
-| `develop` | テスト環境 | https://staging.nagao.xyz |
+| `staging` | 検証環境 | https://staging.nagao.xyz |
+| `develop` | テスト環境 | https://dev.nagao.xyz |
 | `feature/*` | ローカル開発 | - |
 
 ### ワークフロー
