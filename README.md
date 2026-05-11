@@ -58,12 +58,12 @@
 |----------|------|-----|
 | `main` | 本番環境 | https://nagao.xyz |
 | `staging` | 検証環境 | https://staging.nagao.xyz |
-| `develop` | テスト環境 | https://dev.nagao.xyz |
+| `develop` | 開発環境 | https://dev.nagao.xyz |
 | `feature/*` | ローカル開発 | - |
 
 ### ワークフロー
 
-featureブランチで開発 → developにプルリク → テスト環境で動作確認 → mainにマージして本番反映
+develop（feature）ブランチで開発 → stagingにプルリク → テスト環境で動作確認 → mainにマージして本番反映
 
 #### Note:なぜこの開発手法を選択したか
 
