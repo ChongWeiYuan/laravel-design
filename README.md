@@ -33,7 +33,7 @@
 
 | 項目 | 内容 |
 |------|------|
-| VPS | シンVPS 大容量メモリ 1GB |
+| VPS | シンVPS 1GB |
 | OS | Ubuntu 24.04 LTS |
 | CPU | 1コア |
 | メモリ | 1GB |
@@ -57,9 +57,11 @@
 | ブランチ | 環境 | URL |
 |----------|------|-----|
 | `main` | 本番環境 | https://nagao.xyz |
-| `staging` | 検証環境 | https://staging.nagao.xyz |
+| `staging` | 検証環境(仮) | https://staging.nagao.xyz |
 | `develop` | 開発環境 | https://dev.nagao.xyz |
 | `feature/*` | ローカル開発 | - |
+
+※実務を想定してブランチを4分割したが、VPSの性能制約と個人開発の事情から当面は、開発環境→本番環境のみの構築と運用でサーバー負荷を観察する
 
 ### ワークフロー
 
